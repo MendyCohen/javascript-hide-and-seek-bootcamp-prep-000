@@ -16,7 +16,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
- var deep = document.querySelectorAll('#grand-node div');
+ var deep = document.querySelectorAll('#grand-node > div');
  for(var i = 0; i < deep.length; i++) {
      if(i === deep.length-1){
       return deep[i]; 
@@ -25,3 +25,9 @@ function deepestChild() {
   }
 }
 
+function findchildren(node){
+  //findchildren
+  //if children
+       //foreach child findchildren(child)
+  //else return node
+}
